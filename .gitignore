@@ -6,4 +6,5 @@ coverage/
 .tmp/
 dist/
 env/
-
+*.pyc
+app.db
