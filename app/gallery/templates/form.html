@@ -1,0 +1,29 @@
+<div class="register_form">
+    <form  id="form_registration" class="contact_form" method="post" name="contact_form">
+        <ul> 
+            <li>
+                <!--  <h2>Registration</h2> -->
+                <span class="required_notification">Denotes Required Fields</span> 
+            </li><li>
+                <label for="name">Full name:</label>
+                <input id="name" name="name" type="name" placeholder="Pupkin" required/>
+            </li><li>
+                <label for="email" >Email:</label>
+                <input id="email" placeholder="user@example.ru" name="email" type="email" required/>
+                <span class="form_hint">Proper format email</span>
+            </li>
+            <li>
+                <label for="tel">Tel:</label>
+                <input id="tel" placeholder="+7(xxx)xxx-xx-xx" pattern="(\+?\d[- .()]*){7,13}" name="tel" type="tel" required/>
+                <span class="form_hint">Proper format phone</span>
+            </li><li>
+                <label for="message">Message</label>
+                <textarea name="message" cols="40" ros="6" spellcheck="true"></textarea>
+            </li>
+            <li>
+                <button class="submit" value="send" type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
+</div>
+
